@@ -1,0 +1,29 @@
+package com.google.android.gms.internal.ads;
+
+import f.a.b.a.a;
+
+/* compiled from: com.google.android.gms:play-services-ads@@21.0.0 */
+/* loaded from: classes.dex */
+public final class zzfri {
+    private final Object zza;
+    private final Object zzb;
+    private final Object zzc;
+
+    public zzfri(Object obj, Object obj2, Object obj3) {
+        this.zza = obj;
+        this.zzb = obj2;
+        this.zzc = obj3;
+    }
+
+    public final IllegalArgumentException zza() {
+        String valueOf = String.valueOf(this.zza);
+        String valueOf2 = String.valueOf(this.zzb);
+        String valueOf3 = String.valueOf(this.zza);
+        String valueOf4 = String.valueOf(this.zzc);
+        int length = valueOf.length();
+        int length2 = valueOf2.length();
+        StringBuilder sb = new StringBuilder(length + 39 + length2 + valueOf3.length() + valueOf4.length());
+        a.R(sb, "Multiple entries with same key: ", valueOf, "=", valueOf2);
+        return new IllegalArgumentException(a.w(sb, " and ", valueOf3, "=", valueOf4));
+    }
+}

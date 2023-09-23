@@ -1,0 +1,23 @@
+package com.google.android.gms.ads.internal.client;
+
+import android.os.IInterface;
+
+/* compiled from: com.google.android.gms:play-services-ads-lite@@21.0.0 */
+/* loaded from: classes.dex */
+public interface zzbf extends IInterface {
+    void zzc();
+
+    void zzd();
+
+    void zze(int i2);
+
+    void zzf(zze zzeVar);
+
+    void zzg();
+
+    void zzh();
+
+    void zzi();
+
+    void zzj();
+}

@@ -1,0 +1,18 @@
+package com.google.android.gms.internal.ads;
+
+/* compiled from: com.google.android.gms:play-services-ads@@21.0.0 */
+/* loaded from: classes.dex */
+public final class zzfqj extends zzfqn {
+    public final /* synthetic */ zzfqr zza;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public zzfqj(zzfqr zzfqrVar) {
+        super(zzfqrVar, null);
+        this.zza = zzfqrVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzfqn
+    public final Object zza(int i2) {
+        return zzfqr.zzg(this.zza, i2);
+    }
+}
